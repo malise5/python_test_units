@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 malise
-.malise
 .Python
 build/
 develop-eggs/
