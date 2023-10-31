@@ -1,6 +1,6 @@
 import pytest
 
-from add import add
+from add import add, sub
 
 
 def test_add_positive_numbers():
