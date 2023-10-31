@@ -1,6 +1,6 @@
 import pytest
 
-from add import add, sub
+from add import add, sub, mul
 
 
 def test_add_positive_numbers():
@@ -26,3 +26,8 @@ def test_add_zero():
 def test_add_sub():
     result = sub(10, 5)
     assert result == 5
+
+
+def test_add_mul():
+    result = mul(10, 5)
+    assert result == 50
