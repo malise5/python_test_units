@@ -18,6 +18,6 @@ def test_add_mixed_numbers():
     assert result == 2
 
 
-def test_add_zero():
-    result = add(0, 0)
-    assert result == 0
+def test_add_sub():
+    result = sub(10, 5)
+    assert result == 5
