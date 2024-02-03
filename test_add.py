@@ -33,5 +33,5 @@ def test_add_mul():
     assert result == 50
 
 def test_add_div():
-    result = mul(10, 5)
+    result = div(10, 5)
     assert result == 2
